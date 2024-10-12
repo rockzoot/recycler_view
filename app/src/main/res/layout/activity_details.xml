@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_details">
+
+    <ImageView
+        android:id="@+id/property_image_2"
+        android:layout_width="369dp"
+        android:layout_height="318dp"
+        android:layout_marginTop="72dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/sample_property1"
+        app:layout_constraintEnd_toEndOf="@+id/property_price_2"
+        app:layout_constraintStart_toStartOf="@+id/property_name_2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/property_name_2"
+        android:layout_width="194dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="36dp"
+        android:text="Luxury Villa"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/property_price_2"
+        android:layout_width="84dp"
+        android:layout_height="26dp"
+        android:gravity="right"
+        android:text="500,000 pkr"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/property_name_2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.887"
+        app:layout_constraintStart_toEndOf="@+id/property_name_2" />
+
+    <TextView
+        android:id="@+id/property_description_2"
+        android:layout_width="333dp"
+        android:layout_height="27dp"
+        android:layout_marginBottom="416dp"
+        android:text="A beautiful villa with modern architecture and style."
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/property_location_2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/property_location_2" />
+
+    <TextView
+        android:id="@+id/property_location_2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:text="Karachi, Pakistan"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/property_image_2"
+        app:layout_constraintTop_toBottomOf="@+id/property_image_2" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
